@@ -1,3 +1,4 @@
+"use client";
 import "@rainbow-me/rainbowkit/styles.css";
 import "./globals.css";
 import { Inter } from "next/font/google";
