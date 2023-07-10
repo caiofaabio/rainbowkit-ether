@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Conexão Wallet com Rainbow
 
-First, run the development server:
+![image](https://github.com/caiofaabio/rainbowkit-ether/assets/109986771/6afdf26d-023c-4a0e-9bef-c75cf79567a2)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Este projeto utiliza as bibliotecas Next.js e Tailwind CSS para criar uma funcionalidade de conexão de carteira Ethereum.
+Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## O projeto utiliza as seguintes tecnologias:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+  *  Next.js: Next.js é um framework React que facilita a construção de aplicativos web modernos. Ele fornece recursos avançados, como renderização do lado do servidor (SSR) e geração de páginas estáticas.
+   * Tailwind CSS: Tailwind CSS é um framework CSS utilitário que permite a construção rápida de interfaces personalizadas. Ele fornece uma ampla gama de classes CSS pré-definidas para estilizar componentes de forma eficiente.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
+Conexão de Carteira Ethereum
 
-## Learn More
+A funcionalidade principal do projeto é permitir que os usuários se conectem a uma carteira Ethereum. O componente Home renderiza um botão de conexão de carteira que é estilizado usando classes CSS do Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O componente ConnectButton é importado da biblioteca "@rainbow-me/rainbowkit" e fornece a funcionalidade de conexão de carteira. Ao clicar no botão, os usuários podem conectar sua carteira Ethereum e realizar ações relacionadas à sua conta.
